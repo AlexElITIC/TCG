@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/cardView"
+        android:layout_width="111dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/cardName"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cardView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="center"
+        android:text="@string/nombre_de_carta"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/cardRarity"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="left"
+        android:text="@string/rareza" />
+
+    <TextView
+        android:id="@+id/cardStock"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardPrice"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="left"
+        android:text="@string/stock" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardStock"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="left"
+        android:text="@string/tienda" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="left"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/cardPrice"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardRarity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:gravity="left"
+        android:text="@string/precio" />
+
+
+
+</RelativeLayout>

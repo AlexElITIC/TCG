@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "819475378816",
+    "firebase_url": "https://tcgapp-a8c35.firebaseio.com",
+    "project_id": "tcgapp-a8c35",
+    "storage_bucket": "tcgapp-a8c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819475378816:android:d34cb303283cc26d",
+        "android_client_info": {
+          "package_name": "com.example.alex.tcgapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819475378816-2fcm473g8kli9ikr02db405hir6ib030.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkopSS6f0PKUVtQtyJtPVgLXkBe6e6cLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
